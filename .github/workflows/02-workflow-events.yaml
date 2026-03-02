@@ -1,9 +1,9 @@
 name: 02 - Eventos
 on:
-  - push
-  - pull_request
-  - workflow_dispatch
-  - schedule:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
       # Agendado para ejecutarse una única vez el día 02 de marzo de 2026 a las 18:00 UTC
       cron: '0 18 2 3 *'
 
