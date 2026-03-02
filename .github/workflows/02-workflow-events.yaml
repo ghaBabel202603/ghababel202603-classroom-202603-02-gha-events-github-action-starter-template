@@ -1,6 +1,11 @@
 name: "Events"
 on:
- - push
+ push:
+ pull_request:
+ schedule:
+    - cron: "55 17 * * *"
+ workflow_dispatch:
+
 jobs:
     job1:
         name: "job-events"
