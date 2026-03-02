@@ -4,8 +4,8 @@ on:
   pull_request:
   workflow_dispatch:
   schedule:
-    # Agendado para ejecutarse una única vez el día 02 de marzo de 2026 a las 18:10 UTC
-    - cron: '10 18 2 3 *'
+    # Agendado para ejecutarse una única vez el día 03 de marzo de 2026 a las 18:10 UTC
+    - cron: '10 18 3 3 *'
 
 jobs:
   echo:
