@@ -24,6 +24,7 @@ Explorar distintas formas en las que se pueden ejecutar workflows en GitHub Acti
     - Hacer clic en el botón "Ejecutar workflow" en el lado derecho de la pantalla".
     - Observar cómo se activa el workflow.
 
+## CAMBIO README PARA PULLREQUEST
 
 ## Tips
 - Utilizar una expresión cron válida. Para ello, tened en cuenta la sintáxis especificada en la documentación oficial de GitHub Actions (https://docs.github.com/es/actions/using-workflows/events-that-trigger-workflows#schedule) :
