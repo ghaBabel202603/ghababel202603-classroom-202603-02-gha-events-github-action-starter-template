@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '0 7 * * *' # Todos os dias las 7h UTC
   workflow_dispatch:
-# Segundo paso
+# Modificacion para ver ramas
 jobs:
     echo:
         runs-on: ubuntu-latest 
